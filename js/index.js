@@ -3,11 +3,7 @@ var elSelect = document.querySelector('.forms__select');
 var elInput = document.querySelector(".forms__input")
 var elSelectOrder = document.querySelector(".forms__select-ordered");
 
-var elList = document.querySelector('.cards__list');
-
-var pokemonchiki = [];
-
-
+var elList = document.querySelector('.cards__list')
 
 var pokemonTypes = ["Bug","Dragon","Electric","Grass","Ghost","Ground","Ice",
    "Fire","Fighting","Flying","Normal","Psychic","Rock","Water","Grass"]
@@ -64,6 +60,7 @@ function pokemonCharacters() {
     item.appendChild(weight);
     item.appendChild(height);
 }
+
 for (var i = 0; i < pokemons.length; i++) {
     pokemonCharacters(pokemons[i])
 }
