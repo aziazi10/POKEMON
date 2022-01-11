@@ -4,6 +4,7 @@ var elInput = document.querySelector(".forms__input")
 var elSelectOrder = document.querySelector(".forms__select-ordered");
 var elList = document.querySelector('.cards__list');
 
+
 var pokemonTypes = [];
 for (var i = 0; i < pokemons.length; i++) {
 
